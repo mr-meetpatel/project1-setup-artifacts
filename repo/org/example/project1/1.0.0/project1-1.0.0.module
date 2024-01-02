@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.example",
+    "module": "project1",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "project1-1.0.0.jar",
+          "url": "project1-1.0.0.jar",
+          "size": 1193,
+          "sha512": "a24c76c623dbbc82d2af2c9423195e608aa008d7f9794561e9a126f680051de7263f9fe5b72991160f8ae1933e1e4647dea8a976629ef3cc10022c3851aca1fc",
+          "sha256": "993c639ac847073deaca747408b7465628fc2129ee16ecd8f050a88e08ab75c7",
+          "sha1": "1230d52e246fbca9ad18aaad405bf6c3affe40f4",
+          "md5": "98dceda9d273ec15fe35acf4531b699a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 19,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "project1-1.0.0.jar",
+          "url": "project1-1.0.0.jar",
+          "size": 1193,
+          "sha512": "a24c76c623dbbc82d2af2c9423195e608aa008d7f9794561e9a126f680051de7263f9fe5b72991160f8ae1933e1e4647dea8a976629ef3cc10022c3851aca1fc",
+          "sha256": "993c639ac847073deaca747408b7465628fc2129ee16ecd8f050a88e08ab75c7",
+          "sha1": "1230d52e246fbca9ad18aaad405bf6c3affe40f4",
+          "md5": "98dceda9d273ec15fe35acf4531b699a"
+        }
+      ]
+    }
+  ]
+}
